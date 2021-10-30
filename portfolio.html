@@ -4,11 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
+
     <title>Document</title>
   </head>
 
@@ -16,7 +20,7 @@
     <header>
       <nav>
         <a class="logo" href="./index.html"
-          ><span class="logo-part">Web</span>Studio</a
+          >Web<span class="logo-part-header">Studio</span></a
         >
 
         <ul class="site-nav list">
@@ -37,7 +41,7 @@
     </header>
 
     <main>
-      <h1>Портфолио</h1>
+      <h1 class="hidden-title">Портфолио</h1>
       <!--фильтры-->
       <ul class="list">
         <li><button type="button" class="portf-button">Все</button></li>
@@ -89,7 +93,7 @@
         <li>
           <img
             src="./images/p-img-6.jpg"
-            alt="на экране монитора открыт какойто сайт"
+            alt="на экране монитора открыт какой-то сайт"
             width="370"
           />
           <h2 class="projects">Inspiration has no Borders</h2>
@@ -114,7 +118,9 @@
     </main>
 
     <footer class="footer">
-      <a class="logo" href=""><span class="logo-part">Web</span>Studio</a>
+      <a class="logo" href=""
+        >Web<span class="logo-part-footer">Studio</span></a
+      >
       <address>
         <span class="text-address">г. Киев, пр-т Леси Украинки, 26</span><br />
         <ul class="auth-nav-footer list">
